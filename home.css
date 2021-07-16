@@ -1,0 +1,87 @@
+/*Change font*/
+body{
+	font-family: 'Share Tech Mono', monospace;
+}
+/**************************************NAVIGATION BAR****************************************/
+/*Navigation bar*/
+#nav-bar {
+  border: 1px solid rgb(207, 212, 212, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+	width: 250px;
+	z-index: 1;
+	overflow: auto;
+	overflow-x: hidden;
+}
+/*VISITOR COUNTER OPACITY*/
+.elfsight-app-77d4c9fc-79ca-48e0-a856-4b05a910a320{
+	opacity: 0.7;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+li {
+	text-align: center;
+	border-bottom: 1px solid rgb(207, 212, 212, 0.5);
+}
+li a{
+	display: block;
+	color: #000;
+	padding: 4px 10px;
+	text-decoration: none;
+}
+.navicon:hover{
+	background-color: #555;
+	color: white;
+}
+/*Name at top left*/
+#name {
+	text-align: center;
+	font-size: 25px;
+}
+/* let's work together */
+#lastword {
+	color: gray;
+	text-align: center;
+}
+/*******************************************MAIN CONTENT**************************************/
+/*Main content*/
+#main	{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+  height: 100vh;
+  margin-left: 250px;
+  align-items: center;
+  justify-content: center;
+	z-index: 2;
+}
+/*************************************BACKGROUND IMAGE****************************************/
+/* Back ground image */
+.demo-bg {
+  opacity: 0.3;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+/*********************************************ICON IMAGE************************************/
+/*Icon Image*/
+#main img{
+	border-radius: 50%;
+	width: 200px;
+	border: 50px solid rgb(207, 212, 212, 0.3);
+}
+#main img:hover{
+	width: 220px;
+}
+/* hover main content icons*/
+.mainicon:hover{
+	font-size: 20px;
+}
