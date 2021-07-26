@@ -1,0 +1,111 @@
+/*Change font*/
+body{
+	font-family: 'Share Tech Mono', monospace;
+  margin-left: 250px;
+}
+/* *********************************************Link hover animation */
+.link:hover{
+  font-size: 110%;
+}
+.link a:link, .link a:visited, .link a:active {
+  text-decoration: none;
+  color: #01470E;
+}
+/********************************NAVIGATION BAR*************************************/
+/*Navigation bar*/
+#nav-bar {
+  border: 1px solid rgb(207, 212, 212, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+	width: 250px;
+	z-index: 1;
+	overflow: auto;
+	overflow-x: hidden;
+}
+/*VISITOR COUNTER OPACITY*/
+.elfsight-app-77d4c9fc-79ca-48e0-a856-4b05a910a320{
+	opacity: 0.7;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+li {
+	text-align: center;
+	border-bottom: 1px solid rgb(207, 212, 212, 0.5);
+}
+li a{
+	display: block;
+	color: #000;
+	padding: 4px 10px;
+	text-decoration: none;
+}
+.navicon:hover{
+	background-color: #555;
+	color: white;
+}
+/*Name at top left*/
+#name {
+	text-align: center;
+	font-size: 25px;
+}
+/* let's work together */
+#lastword {
+	color: gray;
+	text-align: center;
+}
+/*************************************BACKGROUND IMAGE****************************************/
+/* Back ground image */
+.demo-bg {
+  opacity: 0.2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+/****************************************Header Img***********************************/
+#header img{
+  width: 40%;
+  border-radius: 50%;
+  border: 20px solid rgb(207, 212, 212);
+  opacity: 0.6;
+}
+#header img:hover {
+  width: 60%;
+  opacity: 0.9;
+    border: 20px solid rgb(207, 212, 212,0.6);
+}
+#header	{
+	position: relative;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+}
+/*******************CONTACT*****************************/
+#contact{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  z-index: 1;
+}
+#item{
+  text-align: center;
+}
+.mainicon, .mainicon:link, .mainicon:visited, .mainicon:active{
+  text-decoration: none;
+  color: black;
+}
+.mainicon:hover{
+  font-size: 20px;
+}
+#item img{
+  width: 50px;
+}
